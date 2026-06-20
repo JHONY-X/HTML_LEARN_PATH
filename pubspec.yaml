@@ -1,0 +1,31 @@
+name: fullstack_tracker_app
+description: A 180‑day full‑stack learning tracker built with Flutter.
+publish_to: 'none' # private package
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  csv: ^6.0.0
+  path_provider: ^2.0.15
+  shared_preferences: ^2.0.18
+  pdf: ^3.10.5
+  printing: ^5.10.0
+  url_launcher: ^6.1.12
+  google_fonts: ^6.2.1
+  intl: ^0.18.1
+  fl_chart: ^0.68.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - fullstack_180_day_tracker_template.csv
